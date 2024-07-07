@@ -1,0 +1,17 @@
+#Installing pyautogui and pyserial modules for windows: 
+
+STEP 1: Open Windows Command prompt and change the directory to the folder 
+where you have installed python. By default the command should be  
+cd C:\Python27 
+
+STEP 2: Inside your python directory use the command “python –m pip install 
+upgrade pip” to upgrade your pip. Pip is a tool in python which helps us to 
+install python modules easily. Once this module is upgraded proceed to next step.  
+python –m pip install –-upgrade pip 
+
+STEP 3: Use the command “python –m pip install pyautogui” to install the 
+pyautogui module.  
+python –m pip install pyautogui 
+
+NOTE – Repeat the same process to install pyserial, replace pyautogui by pyserial 
+in this process. 
